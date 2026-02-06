@@ -62,7 +62,7 @@ The system follows a layered architecture with clear separation of concerns:
 │  - Project Dashboard                                    │
 │  - Chat Interface                                       │
 │  - Notes Panel                                          │
-│  - 3D Structure Viewer (Mol*)                          │
+│  - 3D Structure Viewer (Mol*)                           │
 │  - File Upload                                          │
 └─────────────────────────────────────────────────────────┘
                           │
@@ -100,9 +100,9 @@ The system follows a layered architecture with clear separation of concerns:
                           ↓
 ┌─────────────────────────────────────────────────────────┐
 │                  Persistence Layer                      │
-│  - PostgreSQL (metadata, projects, chats, notes)       │
-│  - File Storage (artifacts, structures, exports)       │
-│  - FAISS Index (vector embeddings)                     │
+│  - PostgreSQL (metadata, projects, chats, notes)        │
+│  - File Storage (artifacts, structures, exports)        │
+│  - FAISS Index (vector embeddings)                      │
 └─────────────────────────────────────────────────────────┘
 ```
 
